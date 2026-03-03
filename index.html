@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Luiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-amber-100 min-h-screen flex flex-col">    
+
+    <header class="bg-amber-800 w-full py-4 shadow-md">
+        <h1 class="text-6xl mb-1 text-center text-black font-semibold">Atividade de Luiz com Tailwind</h1>
+    </header>
+
+    <main class="flex flex-1 justify-center items-center">
+        <div class="flex flex-col justify-center items-center bg-gray-900 w-96 rounded-3xl p-6">
+            
+            <p class="text-center mb-3 text-white text-lg font-semibold">LISTA DE COMPRAS</p>
+
+            <div class="flex flex-col justify-center items-center bg-amber-100 rounded-2xl p-4 w-full">
+                <ul class="list-disc pl-6 text-gray-700 flex flex-col justify-center">
+                    <li class="mb-3">Tempero</li>
+                    <li class="mb-3">Feijão</li>
+                    <li class="mb-3">Abacate</li>
+                </ul>
+
+                <button class="bg-red-700 text-white rounded-2xl cursor-pointer px-6 py-3 mt-3 transition duration-500 transform hover:scale-110 hover:bg-black hover:shadow-xl font-semibold">
+                    Essa é sua lista de desejos?
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="flex flex-row bg-amber-800 justify-around items-center py-2 px-4">
+        <p class="text-white">2026</p>
+        <p class="text-white">Aula de Tailwind</p>
+        <p class="text-white">
+            <a href="https://github.com/Pedrinhodev1" class="hover:text-gray-400 transition-colors">Meu Git</a>
+        </p>
+    </footer>
+
+</body>
+</html>
